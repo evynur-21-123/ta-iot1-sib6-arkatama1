@@ -1,0 +1,19 @@
+{
+    "name": "evy-nur-imamah/proyek-iot",
+    "description": "Project akhir Iot Arkatama",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Evy Nur Imamah",
+            "email": "imamahevynur@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProyekIot\\": "src/"
+        }
+    }
+}
