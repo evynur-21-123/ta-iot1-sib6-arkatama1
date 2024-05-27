@@ -3,10 +3,10 @@
                <div class="iq-sidebar-logo">
                   <div class="top-logo">
                      <a href="index.html" class="logo">
-                     <img src="images/iot.jpg" class="img-fluid" alt="">
+                     <img src="{{ asset('images/iot.jpg') }}" class="img-fluid" alt="">
                      <span>IOT</span>
                      </a>
-                  </div>''
+                  </div>
                </div>
                <div class="navbar-breadcrumb">
                   <h5 class="mb-0">Dashboard</h5>
@@ -36,7 +36,7 @@
                               <input type="text" class="text search-input" placeholder="Type here to search..." />
                            </form>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                            <a href="#" class="search-toggle iq-waves-effect">
                               <i class="ri-mail-line"></i>
                               <span class="badge badge-pill badge-primary badge-up count-mail">3</span>
@@ -168,7 +168,7 @@
                                  </div>
                               </div>
                            </div>
-                        </li>
+                        </li> -->
                         <li class="nav-item iq-full-screen"><a href="#" class="iq-waves-effect" id="btnFullscreen"><i class="ri-fullscreen-line"></i></a></li>
                      </ul>
                   </div>
